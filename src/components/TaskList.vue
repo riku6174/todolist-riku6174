@@ -4,7 +4,7 @@ interface Task {
   name: string
   progress: Boolean
 }
-const tasks = ref<Ttem[]>([
+const tasks = ref<Task[]>([
   { name: '散歩', progress: false },
   { name: '水やり', progress: false }
 ])
